@@ -8,13 +8,13 @@
 Summary:	Email::Send::SMTP::Auth - Send messages using SMTP with login/password
 Summary(pl):	Email::Send::SMTP::Auth - wysy³anie wiadomo¶ci z u¿yciem autoryzacji SMTP
 Name:		perl-Email-Send-SMTP-Auth
-Version:	1.007
+Version:	1.011
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ac7ea6ef0a5d68cb78763688a03fb75c
+# Source0-md5:	f776a0af2956746f34b1b546382b11d2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
