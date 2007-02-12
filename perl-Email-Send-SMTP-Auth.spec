@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Send-SMTP-Auth
 Summary:	Email::Send::SMTP::Auth - Send messages using SMTP with login/password
-Summary(pl):	Email::Send::SMTP::Auth - wysy≥anie wiadomo∂ci z uøyciem autoryzacji SMTP
+Summary(pl.UTF-8):   Email::Send::SMTP::Auth - wysy≈Çanie wiadomo≈õci z u≈ºyciem autoryzacji SMTP
 Name:		perl-Email-Send-SMTP-Auth
 Version:	1.011
 Release:	1
@@ -36,14 +36,14 @@ remember these settings until/unless they are reset.
 If your password is undef or empty-string, plain SMTP without
 authorization will be used.
 
-%description -l pl
-To rozszerzenie Email::Send uøywa Net:::SMTP_auth do wysy≥ania
-wiadomo∂ci poprzez serwer SMTP z uøyciem autoryzacji. Pierwsze
-wywo≥anie wymagana podania trzech argumentÛw poza wiadomo∂ci±: nazwy
-serwera SMTP (lub adresu IP), nazwy uøytkownika oraz has≥a. PÛºniejsze
-wywo≥ania bÍd± korzysta≥y z tych ustawieÒ do czasu wyczyszczenia.
+%description -l pl.UTF-8
+To rozszerzenie Email::Send u≈ºywa Net:::SMTP_auth do wysy≈Çania
+wiadomo≈õci poprzez serwer SMTP z u≈ºyciem autoryzacji. Pierwsze
+wywo≈Çanie wymagana podania trzech argument√≥w poza wiadomo≈õciƒÖ: nazwy
+serwera SMTP (lub adresu IP), nazwy u≈ºytkownika oraz has≈Ça. P√≥≈∫niejsze
+wywo≈Çania bƒôdƒÖ korzysta≈Çy z tych ustawie≈Ñ do czasu wyczyszczenia.
 
-Je∂li jest niezdefiniowane lub puste, uøyte bÍdzie czyste SMTP bez
+Je≈õli jest niezdefiniowane lub puste, u≈ºyte bƒôdzie czyste SMTP bez
 jakiejkolwiek autoryzacji.
 
 %prep
