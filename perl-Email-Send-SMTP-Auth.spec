@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Send-SMTP-Auth
 Summary:	Email::Send::SMTP::Auth - Send messages using SMTP with login/password
-Summary(pl.UTF-8):   Email::Send::SMTP::Auth - wysyłanie wiadomości z użyciem autoryzacji SMTP
+Summary(pl.UTF-8):	Email::Send::SMTP::Auth - wysyłanie wiadomości z użyciem autoryzacji SMTP
 Name:		perl-Email-Send-SMTP-Auth
 Version:	1.011
 Release:	1
