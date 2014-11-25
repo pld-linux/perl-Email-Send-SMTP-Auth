@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Email
 %define	pnam	Send-SMTP-Auth
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Send::SMTP::Auth - Send messages using SMTP with login/password
 Summary(pl.UTF-8):	Email::Send::SMTP::Auth - wysyłanie wiadomości z użyciem autoryzacji SMTP
 Name:		perl-Email-Send-SMTP-Auth
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f776a0af2956746f34b1b546382b11d2
+URL:		http://search.cpan.org/dist/Email-Send-SMTP-Auth/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
